@@ -7,3 +7,21 @@ def TASK_1(DATAFRAME_1):
         return "Correct Answer!"
     else:
         return "Incorrect Answer!"
+
+
+def TASK_2(DATAFRAME_2):
+    CHECK = pd.DataFrame({'Yes': [50, 21], 'No': [131, 2]})
+
+    if DATAFRAME_2.equals(CHECK):
+        return "Correct Answer!"
+    else:
+        return "Incorrect Answer!"
+    
+    
+def TASK_3( SERIES_1 ):
+    CHECK = pd.Series( [57, 32, 26, 67, 56] )
+
+    if SERIES_1.equal(CHECK):
+        return 'Correct Answer!'
+    else:
+        return 'Incorrect Answer!'
