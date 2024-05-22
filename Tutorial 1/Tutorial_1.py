@@ -25,3 +25,14 @@ def TASK_3( SERIES_1 ):
         return 'Correct Answer!'
     else:
         return 'Incorrect Answer!'
+    
+def TASK_4( DATAFRAME ):
+    DATA = {'Apple': [15, 30], 'Banana': [15, 45], 'Cherry': [10, 20]}
+    INDEX = ['Sales 2023', 'Sales 2024']
+
+    CHECK = pd.DataFrame(DATA, index = INDEX )
+
+    if CHECK.equals(DATAFRAME):
+        return 'Correct Answer'
+    else:
+        return 'Incorrect Answer'
