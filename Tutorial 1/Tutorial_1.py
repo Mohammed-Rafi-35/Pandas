@@ -21,7 +21,7 @@ def TASK_2(DATAFRAME_2):
 def TASK_3( SERIES_1 ):
     CHECK = pd.Series( [57, 32, 26, 67, 56] )
 
-    if SERIES_1.equal(CHECK):
+    if SERIES_1 == CHECK:
         return 'Correct Answer!'
     else:
         return 'Incorrect Answer!'
